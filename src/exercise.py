@@ -15,7 +15,7 @@ def main():
         sumOfNumbers = sumOfNumbers + number
         averageOfNumbers = int(sumOfNumbers/amountOfPositiveNumbers)
     
-    if(averageOfNumbers>0):
+    if(sumOfNumbers>0):
       print(averageOfNumbers)
     else:
       print("Cannot calculate the average")
