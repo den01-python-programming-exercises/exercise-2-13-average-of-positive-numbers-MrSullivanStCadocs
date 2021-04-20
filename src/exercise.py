@@ -5,7 +5,7 @@ def main():
     
 
     while True:
-      number = int(input("Give a number:"))
+      number = int(input(""))
 
       if (number == 0):
         break
